@@ -4,5 +4,6 @@
 *.maf
 *.mtc0
 *.mtc
+*.ptc1
 *.synctex.gz
 .DS_Store
