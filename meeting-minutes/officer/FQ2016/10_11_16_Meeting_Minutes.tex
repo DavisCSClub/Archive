@@ -1,0 +1,104 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+\usepackage{fullpage}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{textcomp}
+
+\minutesstyle{
+  columns = {1},
+  header =  {list},
+  contents = {true},
+}
+
+\fancypagestyle{creditfooter}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\LaTeX:\ Trevor Glynn}
+\fancyfoot[C]{\thepage}
+}
+
+\begin{document}
+\begin{Minutes}{Davis Computer Science Club\\Officer Board Meeting}
+\minutetaker{Trevor Glynn}
+\participant{Kiran Bhadury, Pooja Rajkumar, Prajakta Surve, Sravya
+Divakrla, Teresa Liu, Trevor Glynn, Zarra Stamboel}
+\missingExcused{Alex Fu, Ariel Shin, Michael Lee, Stephanie Chang}
+\missingNoExcuse{Pranav Gupta, Zain Budhwani}
+
+\minutesdate{October 11, 2016}
+
+\starttime{2:16 p.m.}
+\endtime{3:03 p.m.}
+
+\location{Kemper Courtyard}
+
+\maketitle
+\topic{Bit/Byte}
+\begin{itemize}
+\item 13 bytes so far
+\item 17 bits
+\item pumpkin carving October 24
+\end{itemize}
+
+\topic{Room Booking}
+\textit{Send room booking requests to \texttt{\#roombooking} on Slack.}
+
+\topic{Vim Workshop}
+\begin{itemize}
+\item next Monday
+\item room booked
+\item basic commands
+\item advanced stuff (recording, visual modes, \dots)
+\item maybe hold a more advanced workshop later in the year (plugins, \dots)
+\end{itemize}
+
+\topic{Newsletter}
+\begin{itemize}
+\item we can have one
+\item pictures of past events
+\item list of upcoming events
+\item every two weeks
+\item explain Bit/Byte
+\item advertize resume workshop
+\item send to emails we collected on sign-in sheets
+\end{itemize}
+
+\topic{General Meeting}
+\begin{itemize}
+\item next Thursday, 8--9pm
+\item everyone will collaborate on a slide show for the meeting
+\item explain subcommittees and officers
+\item talk about dues
+\item how to get involved
+\item hold these monthly
+\end{itemize}
+
+\topic{HackDavis}
+\textit{This is why Zarra was here.}
+\begin{itemize}
+\item want to incorporate more clubs
+\item partnership with DCSC
+\item HackDavis did their own workshops last year, many for non-majors
+\item maybe hold workshops in cooperation with DCSC
+\item want to start workshops in November and January (not December because holidays)
+\end{itemize}
+
+\topic{Vices}
+\begin{itemize}
+\item mention at second general meeting (?)
+\item prepare select students for elections
+\end{itemize}
+
+\topic{Funding}
+\begin{itemize}
+\item get sponsorships
+\item run fundraisers
+\end{itemize}
+
+\ \\
+\centerline{\textbf{Start having sign-in sheets at events!}}
+\thispagestyle{creditfooter}
+\end{Minutes}
+\end{document}
