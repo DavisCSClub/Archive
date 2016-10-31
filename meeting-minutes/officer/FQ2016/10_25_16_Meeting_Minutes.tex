@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+\usepackage{fullpage}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{textcomp}
+
+\minutesstyle{
+  columns = {1},
+  header =  {list},
+  contents = {true},
+}
+
+\fancypagestyle{creditfooter}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\LaTeX:\ Trevor Glynn}
+\fancyfoot[C]{\thepage}
+}
+
+\begin{document}
+\begin{Minutes}{Davis Computer Science Club\\Officer Board Meeting}
+\minutetaker{Trevor Glynn}
+\participant{Pranav Gupta, Pooja Rajkumar, Prajakta Surve, Teresa Liu, Trevor Glynn, Zain Budhwani}
+\missingExcused{Alex Fu, Ariel Shin, Michael Lee, Stephanie Chang}
+\missingNoExcuse{Sravya Divakrla}
+
+\minutesdate{October 25, 2016}
+
+\starttime{2:13 p.m.}
+\endtime{2:46 p.m.}
+
+\location{Kemper Courtyard}
+
+\maketitle
+\topic{Mock interviews}
+\begin{itemize}
+\item need to book room(s) for two hours every week
+\item can rent room in SCC
+\item might book for just one hour, make sure nobody needs it after
+\end{itemize}
+
+\topic{HackDavis}
+\begin{itemize}
+\item series of weekly workshops during November (Zain and Pranav)
+\item web development, iOS, Android, machine learning, \dots
+\item partnering with HackDavis (they're booking rooms)
+\item HackDavis people want Pooja to sign a contract
+\end{itemize}
+
+\topic{Bit/Byte}
+\begin{itemize}
+\item everything went better than expected
+\item want monthly events like that (except December)
+\item November event a week before Thanksgiving
+\end{itemize}
+
+\topic{Web Dev}
+\begin{itemize}
+\item only Alex has access to the database
+\item Alex is busy for the next two weeks
+\item members are interested in contributing to the website
+\item maybe start holding workshops soon
+\item could start another website \dots
+\item could start an app
+\item (lots of ideas, probably need to discuss this further)
+\end{itemize}
+
+\topic{Newsletter}
+\begin{itemize}
+\item Prajakta needs mailing list from general meeting
+\item will send out update on ad hoc committees
+\end{itemize}
+
+\topic{Dues}
+\begin{itemize}
+\item doing it
+\item next quarter
+\end{itemize}
+
+\topic{Updates from Trevor}
+\begin{itemize}
+\item committee for cybersecurity, one interested student
+\item esoteric languages on Thursday
+\item \LaTeX\ workshop in November
+\item WebAssembly workshop later (with Teresa maybe)
+\item Room for \textit{Rick \& Morty} marathon
+\item Put \textit{Rick \& Morty} marathon in newsletter after this one
+\end{itemize}
+
+\thispagestyle{creditfooter}
+\end{Minutes}
+\end{document}
