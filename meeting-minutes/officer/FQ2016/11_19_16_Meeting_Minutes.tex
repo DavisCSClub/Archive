@@ -1,0 +1,134 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+\usepackage{fullpage}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{textcomp}
+
+\minutesstyle{
+  columns = {1},
+  header =  {list},
+  contents = {true},
+}
+
+\fancypagestyle{creditfooter}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\LaTeX:\ Trevor Glynn}
+\fancyfoot[C]{\thepage}
+}
+
+\begin{document}
+\begin{Minutes}{Davis Computer Science Club\\Officer Board Meeting}
+\minutetaker{Trevor Glynn}
+\participant{Ariel Shin, Eric La, Kiran Bhadury, Michael Lee, Pooja Rajkumar,
+  Pranav Gupta, Sam, Sam Tsoi, Teresa Liu, Trevor Glynn}
+\missingExcused{Alex Fu, Prajakta Surve, Sravya Divakrla}
+\missingNoExcuse{Stephanie Chang, Zain Budhwani}
+
+\minutesdate{November 19, 2016}
+
+\starttime{3:04 p.m.}
+\endtime{4:18 p.m.}
+
+\location{Kemper Lobby}
+
+\maketitle
+\topic{Friendsgiving}
+\begin{itemize}
+\item Tuesday, 7--8 p.m.
+\item aiming for 25 people
+\item help needed with food
+\item chicken and sides (still deciding \dots)
+\item all officers should be present if possible
+\end{itemize}
+
+\topic{Bhounce}
+\begin{itemize}
+\item a Davis startup that wants to sponsor an event
+\item ideas
+  \begin{itemize}
+  \item DJ
+  \item ``mocktail'' party
+  \item dinner
+  \item competition, and they pay for prizes (gift cards, books?)
+  \end{itemize}
+\end{itemize}
+
+\topic{Other events}
+\subtopic{\textit{Rick \& Morty}}
+\begin{itemize}
+\item Math Club agrees we should do things like this regularly
+\item next event: late winter quarter
+\end{itemize}
+
+\subtopic{Tutoring}
+\begin{itemize}
+\item final reviews soon
+\item Alex is booking rooms
+\end{itemize}
+
+\subtopic{Web Dev}
+\begin{itemize}
+\item meeting Sunday, 4--5 p.m. in 115 Wellman
+\item event page not made yet?
+\end{itemize}
+
+\subtopic{Bit/Byte}
+\begin{itemize}
+\item meeting Monday, 7:30--9:30 p.m. in 119 Wellman
+\item photo manip contest (3 photos, ``families'' edit them)
+\item maybe prizes for best manip
+\end{itemize}
+
+\subtopic{Mock Interviews}
+\begin{itemize}
+\item low turnout last time
+\item done for the quarter
+\end{itemize}
+
+\subtopic{HackDavis}
+\begin{itemize}
+\item data science workshop next quarter
+  \begin{itemize}
+  \item predictive modelling
+  \item machine learning
+  \end{itemize}
+\end{itemize}
+
+\topic{Plans for Next Quarter}
+\begin{itemize}
+\item shoot photos of officers for website (look out for poll soon)
+\item get sponsorships
+\item host fundraisers
+\item collect dues
+  \begin{itemize}
+  \item allow payment through Venmo (see new credentials in spreadsheet)
+  \end{itemize}
+\item host the Bhounce event, whatever that is
+\item book club throughout (details to follow)
+\item Coding Competition (Pranav)
+\item intro to C and C++ (Pranav)
+\item week 1
+  \begin{itemize}
+  \item \textbf{general meeting}
+  \item \LaTeX workshop retry (Trevor)
+  \end{itemize}
+\item week 2
+  \begin{itemize}
+  \item dependently-typed programming (Trevor)
+  \end{itemize}
+\item week 3
+  \begin{itemize}
+  \item Bit/Byte meeting
+  \item Coq (Trevor)
+  \end{itemize}
+\item week 4
+  \begin{itemize}
+  \item WebAssembly (Trevor, probably also Teresa)
+  \end{itemize}
+\end{itemize}
+\thispagestyle{creditfooter}
+\end{Minutes}
+\end{document}
