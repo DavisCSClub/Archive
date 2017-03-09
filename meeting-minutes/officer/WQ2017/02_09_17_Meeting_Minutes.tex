@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+\usepackage{fullpage}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{textcomp}
+
+\minutesstyle{
+  columns = {1},
+  header =  {list},
+  contents = {true},
+}
+
+\fancypagestyle{creditfooter}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\LaTeX:\ Trevor Glynn}
+\fancyfoot[C]{\thepage}
+}
+
+\begin{document}
+\begin{Minutes}{Davis Computer Science Club\\Officer Board Meeting}
+\minutetaker{Trevor Glynn}
+\participant{%
+  Alex Fu,%
+  Ariel Shin,%
+  Pooja Rajkumar,%
+  Prajakta Surve,%
+  Pranav Gupta,%
+  Sam Tsoi,%
+  Sravya Divakarla,%
+  Stephanie Chang,%
+  Teresa Liu,%
+  Trevor Glynn,%
+  Zain Budhwani%
+}
+\missingExcused{}
+\missingNoExcuse{%
+  Michael Lee%
+}
+
+\minutesdate{February 9, 2017}
+
+\starttime{5:10 p.m.}
+\endtime{6:05 p.m.}
+
+\location{Kemper 1066}
+
+\maketitle
+\topic{Intel}
+\begin{itemize}
+\item It went well, we are getting \$1000
+\item We will try to do this again
+\item Attendance was somewhat disappointing
+\end{itemize}
+\subtopic{How to improve attendance}
+\begin{itemize}
+\item Penalty for not ditching?
+\item Reminders on the day of?
+\item \textit{Note: We never came to a consensus about what to do}
+\end{itemize}
+
+\topic{Reimbursement and dues}
+\begin{itemize}
+\item The department says we can have dues
+\item For expenses $\ge$\$50, use the department credit card
+\item For other expenses, use the form and send original copies of receipts
+\item There will be an explanation in the next meeting
+\item \$2 due next quarter
+\end{itemize}
+
+\topic{Budgeting}
+\subtopic{Facebook promotion}
+\begin{itemize}
+\item We want to do this for each event
+\item It's rarely effective, but sometimes very much so
+\end{itemize}
+\subtopic{Meet the professor}
+\begin{itemize}
+\item \textit{Note: This was cancelled}
+\item March 8 with Professor Prasant Mohapatra
+\end{itemize}
+\subtopic{Cybersec}
+\begin{itemize}
+\item still happening
+\end{itemize}
+\subtopic{Book club}
+\begin{itemize}
+\item still happening
+\end{itemize}
+\subtopic{Processing}
+\begin{itemize}
+\item 6:10--7:30 p.m. with Sravya next Thursday
+\end{itemize}
+\subtopic{Brain teasers}
+\begin{itemize}
+\item The following week with Sravya
+\end{itemize}
+\subtopic{Root beer floats}
+\begin{itemize}
+\item \textit{Note: This was moved to spring quarter}
+\end{itemize}
+\thispagestyle{creditfooter}
+\end{Minutes}
+\end{document}
