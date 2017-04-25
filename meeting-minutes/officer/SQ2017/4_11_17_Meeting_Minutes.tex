@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+\usepackage{fullpage}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{textcomp}
+
+\minutesstyle{
+  columns = {1},
+  header =  {list},
+  contents = {true},
+}
+
+\fancypagestyle{creditfooter}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\LaTeX:\ Bryan Ngo}
+\fancyfoot[C]{\thepage}
+}
+
+\begin{document}
+\begin{Minutes}{Davis Computer Science Club\\Officer Board Meeting}
+\minutetaker{Bryan Ngo}
+\participant{%
+}
+
+\missingExcused{%
+  Alex Fu, %
+  Pranav Gupta, %
+  Corey Mason, %
+  Prajakta Surve, %
+  Teresa Liu, %
+  Bryan Ngo, %
+  Sam Tsoi, %
+  Stephanie Chang, %
+  Pooja Rajkumar, %
+  Jeffrey Warner, %
+  Zain Budhwani %
+%
+}
+
+\missingNoExcuse{%
+  Ariel Shin, %
+  Alex Fu, %
+  Sravya Divakarla, %
+  Kiran Bhadury, %
+  Sam Lee %
+}
+
+\minutesdate{April 11, 2017}
+
+\starttime{6:15 p.m.}
+\endtime{7:00 p.m.}
+
+\location{Kemper Courtyard}
+
+\maketitle
+
+\topic{Title}
+\begin{itemize}
+    \item Notes
+\end{itemize}
+
+\topic{Title}
+\begin{itemize}
+    \item Notes
+\end{itemize}
+
+\thispagestyle{creditfooter}
+
+\end{Minutes}
+
+\end{document}
