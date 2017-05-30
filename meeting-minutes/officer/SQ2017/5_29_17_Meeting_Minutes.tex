@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage{minutes}
+\usepackage{fullpage}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{textcomp}
+
+\minutesstyle{
+  columns = {1},
+  header =  {list},
+  contents = {true},
+}
+
+\fancypagestyle{creditfooter}{%
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\LaTeX:\ Bryan Ngo}
+\fancyfoot[C]{\thepage}
+}
+
+\begin{document}
+\begin{Minutes}{Davis Computer Science Club\\Officer Board Meeting}
+\minutetaker{Bryan Ngo}
+\participant{%
+  Bryan Ngo, %
+  Prajakta Surve, %
+  Pooja Rajkumar, %
+  Teresa Liu, %
+  Sam Tsoi, %    
+  Zain Budhwani, %
+  Andrew Cope, %
+  Jeffrey Warner, %  
+  Kiran Bhadury, %
+  Corey Mason, %  
+  Stephanie Chang, %
+  Nikita Andrikanis, %
+%
+}
+
+\missingExcused{%
+}
+
+\missingNoExcuse{%
+  Sam Lee, %
+  Ariel Shin, %
+  Alex Fu, %
+  Sravya Divakarla, %
+  Pranav Gupta, %  
+  Alisha Nanda, %
+}
+
+\minutesdate{May 29, 2017}
+
+\starttime{7:30 p.m.}
+\endtime{8:30 p.m.}
+
+\location{Kemper Lobby}
+
+\maketitle
+
+\topic{Reimbursement Process Overview}
+\begin{itemize}
+	\item More than \$50, whole board must agree on spending
+	\item 2 weeks before the event, Treasurer will email Natasha, after the event, forms (flyers, sign-in sheets)
+	\item Less than \$50 is when it get a little more complicated (see treasurey forms for more detailed procedure).
+\end{itemize}
+
+\topic{Funding}
+\begin{itemize}
+	\item 2017 - 2018 year will start with 2k of funding. 
+\end{itemize}
+
+\topic{Stoles}
+\begin{itemize}
+	\item Stoles are bought on pre-orders; so no money should really come out of our account.
+	\item Officer discount?
+	\item We should have a quote by tomorrow.
+\end{itemize}
+
+\topic{Last Event}
+\begin{itemize}
+	\item De-stresser. Streaming Silicon Valley HBO, ice cream, pizza.
+\end{itemize}
+
+\topic{Bylaws Amendment}
+\begin{itemize}
+	\item Change CS club advisor from any professor to any faculty.
+\end{itemize}
+
+\thispagestyle{creditfooter}
+
+\end{Minutes}
+
+\end{document}
